@@ -14,11 +14,9 @@ def currency_iso_check():
 
     data = csvdata[['Country', 'Currency', 'ISO 4217 Code']]  # display all
     # data for the specified items
-    # print(data)
 
     all_data = data.values  # getting only the values of the date on the item
     # specified
-    # print(all_data)
 
     for _ in all_data:  # the _ variable indicates that the loop variable isn't
         # actually used
