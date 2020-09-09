@@ -49,9 +49,9 @@ def main():
                 print('')
                 break
             else:
-                print('THIS CURRENCY IS NOT SUPPORTED\Kindly check your input '
-                      'as the iso digits are case sensitive(they must be in '
-                      'Capital Case ')
+                print('THIS CURRENCY IS NOT SUPPORTED Kindly check your input '
+                      'as the iso digits are case '
+                      'sensitive(they must be in Capital Case')
                 print('')
                 break
 
