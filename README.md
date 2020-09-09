@@ -8,8 +8,8 @@ argument and displays whether or not the currency is supported in the applicatio
   $ git clone https://github.com/iamfeysal/cheapstock
   $ cd cheapstock
 
-  install Virtualenv or Pipenv to conveniently manage python versions
-  and packages(pro-tip ~~pycharm will automatically handle for you when
+  install Virtualenv or Pipenv to conveniently manage between different python
+  versions and packages(pro-tip ~~pycharm will automatically handle for you when
   starting a python project or you can also do it in the setting ~~)
 
   ~~ install venv if you dont have it ~~
