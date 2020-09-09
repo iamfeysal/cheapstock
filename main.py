@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 import numpy as np
 import pandas as pd
 
@@ -23,7 +20,7 @@ def currency_iso_check():
     # specified
     # print(all_data)
 
-    for item in all_data:
+    for _ in all_data:
         print('')
         user = input('Enter currency:')
         print('')
@@ -40,11 +37,10 @@ def main():
         print(
             "Use these short codes:"
             "ccs - check currency support,"
-            "cc - check country, "
             " help - help menu,"
             " exit - exit application")
         print('')
-        short_code = input().lower()
+        short_code = input().lower()  # change input to lowercase
         print('')
         if short_code == 'ccs':
             if currency_iso_check():
