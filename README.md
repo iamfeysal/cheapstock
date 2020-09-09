@@ -3,6 +3,7 @@ command line application that takes in currency (using ISO 4217 code) as an argu
 
 # Installation
 ```
+   ~~ clone the repo and navigate to the project ~~
   $ git clone https://github.com/iamfeysal/cheapstock
   $ cd cheapstock
 
