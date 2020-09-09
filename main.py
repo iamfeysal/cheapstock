@@ -20,7 +20,8 @@ def currency_iso_check():
     # specified
     # print(all_data)
 
-    for _ in all_data:
+    for _ in all_data:  # the _ variable indicates that the loop variable isn't
+        # actually used
         print('')
         user = input('Enter currency:')
         print('')
