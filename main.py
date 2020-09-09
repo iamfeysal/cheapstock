@@ -58,7 +58,7 @@ def main():
 
         elif short_code == 'help':
             print(
-                "Welcome to the help menu")
+                "Welcome to the help menu. / we are still learning your likes")
             print('')
             break
         elif short_code == 'exit':
