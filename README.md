@@ -8,19 +8,19 @@ command line application that takes in currency (using ISO 4217 code) as an argu
 
   install virtual env or pipeenv to conveniently manage python versions
   and packages(pro-tip ~~pycharm will automatically handle for you when
-  starting a python project or you can also do it in the setting ~~
+  starting a python project or you can also do it in the setting ~~)
 
-  ~~ install venv if you dont have ~~
+  ~~ install venv if you dont have it ~~
   ~~ venv (for Python 3) and virtualenv (for Python 2) ~~
   ~~ If you are using Python 2, replace venv with virtualenv in the below
   commands. ~~
     (env is a folder, you can name what you want)
-  
   $ python -m venv  env 
 
   ~~Activating the virtual environment ~~
-
   $ source env/bin/activate
+
+  ~~ install the requirement of the project to your environment ~~
   $ pip install -r requirements.txt 
  
 ```
