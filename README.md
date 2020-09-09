@@ -10,7 +10,9 @@ command line application that takes in currency (using ISO 4217 code) as an argu
   and packages(pro-tip ~~pycharm will automatically handle for you when
   starting a python project or you can also do it in the setting ~~
 
-  $ python -m venv env ~~install venv if you dont have~~
+  ~~install venv if you dont have~~
+
+  $ python -m venv env 
   $ source env/bin/activate
   $ pip install -r requirements.txt 
  
