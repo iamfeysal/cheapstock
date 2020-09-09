@@ -20,7 +20,7 @@ def currency_iso_check():
 
     for _ in all_data:  # the _ variable indicates that the loop variable isn't
         # actually used
-        print('')
+        print('')  # this is for space purposes
         user = input('Enter currency:')
         print('')
         currency_iso = (user in user in np.array(all_data)[:, 2])
