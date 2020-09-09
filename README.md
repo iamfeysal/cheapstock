@@ -14,10 +14,10 @@ command line application that takes in currency (using ISO 4217 code) as an argu
   ~~ venv (for Python 3) and virtualenv (for Python 2) ~~
   ~~ If you are using Python 2, replace venv with virtualenv in the below
   commands. ~~
-    (env is a folder, you can name what you want)
+    (env is a folder, you can name what it you want)
   $ python -m venv  env 
 
-  ~~Activating the virtual environment ~~
+  ~~ Activating the virtual environment ~~
   $ source env/bin/activate
 
   ~~ install the requirement of the project to your environment ~~
