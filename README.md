@@ -1,5 +1,6 @@
 # Cheap Stock
-command line application that takes in currency (using ISO 4217 code) as an argument and displays whether or not the currency is supported in the application
+Command line application that takes in currency (using ISO 4217 code) as an
+argument and displays whether or not the currency is supported in the application
 
 # Installation
 ```
