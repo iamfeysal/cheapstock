@@ -1,16 +1,78 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# -*- coding: utf-8 -*-
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+import numpy as np
+import pandas as pd
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def currency_iso_check():
+    """CLI application that takes in currency (using ISO 4217 code)
+    as an
+    argument and displays whether or not the currency is
+    supported in
+    the application """
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    csvdata = pd.read_csv('Stocks/Cheap.Stocks.Internationalization'
+                          '.Currencies.csv')  # read the csv file
+
+    data = csvdata[['Country', 'Currency', 'ISO 4217 Code']]  # display all
+    # data for the specified items
+    # print(data)
+
+    all_data = data.values  # getting only the values of the date on the item
+    # specified
+    # print(all_data)
+
+    for item in all_data:
+        print('')
+        user = input('Enter currency:')
+        print('')
+        currency_iso = (user in user in np.array(all_data)[:, 2])
+        return currency_iso
+
+
+def main():
+    print('')
+    print('Hi, welcome to our small stock command line interface')
+    print('')
+
+    while True:
+        print(
+            "Use these short codes:"
+            "ccs - check currency support,"
+            "cc - check country, "
+            " help - help menu,"
+            " exit - exit application")
+        print('')
+        short_code = input().lower()
+        print('')
+        if short_code == 'ccs':
+            if currency_iso_check():
+                print('YES THIS CURRENCY IS SUPPORTED', )
+                print('')
+                break
+            else:
+                print('THIS CURRENCY IS NOT SUPPORTED')
+                print('')
+                break
+
+        elif short_code == 'help':
+            print(
+                "Welcome to the help menu")
+            print('')
+            break
+        elif short_code == 'exit':
+            print(
+                "We hate you going!, but we love you taking break")
+            print('')
+            break
+        else:
+            print(
+                "404 error, (Inputs not found) Kindly try using the short "
+                "code "
+                "provided for consistency")
+            print('')
+
+
+if __name__ == "__main__":
+    main()
