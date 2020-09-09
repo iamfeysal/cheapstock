@@ -5,8 +5,7 @@ command line application that takes in currency (using ISO 4217 code) as an argu
 ```
   $ git clone https://github.com/iamfeysal/cheapstock
   $ cd cheapstock
-  $ pip install -r requirements.txt   (_installing requiremnts(app wont work
-    or need to install it manaully_)
+  $ pip install -r requirements.txt 
  
 ```
 ## Using Cheap Stock
